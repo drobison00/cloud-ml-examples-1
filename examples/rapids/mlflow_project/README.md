@@ -27,7 +27,6 @@ mlflow run . -b local -e hyperopt \
         1. In your shell, run `mlflow ui`
         1. Locate the model path using the mlflow ui at localhost:5000
     1. Select the successful run and find the 'Full Path' element
-        1. ![Example 1](imgs/example.png)
     1. Deploy your model
         1. `$ mlflow models serve --no-conda -m [PATH_TO_MODEL] -p 55755`
 
